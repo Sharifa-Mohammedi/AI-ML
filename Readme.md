@@ -4,10 +4,9 @@ The project includes data preprocessing, feature engineering, model training, an
 
 ##Steps Followed
 1. Data Loading
-The project begins by loading two CSV datasets, one containing general patient information and another with colon cancer-related data.
-The datasets are merged into a single dataframe to facilitate further analysis and modeling.
-2. Exploratory Data Analysis (EDA)
-   
+The project starts by loading two CSV datasets: Dataset1, which contains general patient information, and Dataset2, which includes colon cancer-specific data. These datasets are merged into a single DataFrame using the common column "Type of Colon Cancer". This merging process ensures that all relevant patient information is consolidated, enabling comprehensive analysis and effective model building.
+
+2. Exploratory Data Analysis (EDA)   
 Data Exploration:
 The initial step in understanding the dataset is data exploration, which provides an overview of the key features and their distributions. This helps identify patterns, relationships between features, and any data quality issues like missing values or outliers. By examining these features, we can gain insights into how the different variables might impact the prediction of colon cancer types.
 
