@@ -94,5 +94,32 @@ Recall: 0.20
 F1-Score: 0.25
 The Logistic Regression model performed well in classifying Type 2 Colon Cancer (with high precision and recall), but its performance was weaker for Type 1 and Type 3 cancers. This suggests that the model may benefit from further tuning, or more data may be needed for the underrepresented classes to improve its ability to generalize across all types.
 
-Additionally, SHAP (SHapley Additive exPlanations) was utilized to interpret the model, providing valuable insights into how different features contributed to the predictions.<img width="284" alt="Screenshot 2024-11-11 145405" src="https://github.com/user-attachments/assets/8f23b945-f0e6-4d15-b314-0e2e13218752">
+Additionally, SHAP (SHapley Additive exPlanations) was utilized to interpret the model, providing valuable insights into how different features contributed to the predictions.
+
+Exploratory Data Analysis (EDA):
 <img width="284" alt="Screenshot 2024-11-11 145405" src="https://github.com/user-attachments/assets/8626f945-3df1-46fb-a61a-938cf8d39363">
+<img width="664" alt="Screenshot 2024-11-11 150700" src="https://github.com/user-attachments/assets/e62ad472-2bd4-4ab0-b4ee-f1f281807744">
+<img width="195" alt="Screenshot 2024-11-11 150617" src="https://github.com/user-attachments/assets/735c948e-82ff-40a9-bb99-8586ab4aa485">
+<img width="212" alt="Screenshot 2024-11-11 150607" src="https://github.com/user-attachments/assets/7a42a00e-76f9-4ebe-a26a-ed6d642a9938">
+<img width="204" alt="Screenshot 2024-11-11 150532" src="https://github.com/user-attachments/assets/49170c06-831f-4b0b-95b7-023e5a174b62">
+<img width="464" alt="Screenshot 2024-11-11 150326" src="https://github.com/user-attachments/assets/e8cf91e6-a213-42a1-aadd-0654876a8258">
+
+Data Preprocessing:
+<img width="465" alt="Screenshot 2024-11-11 150825" src="https://github.com/user-attachments/assets/744b2203-91ad-4485-8d15-f987818aefd1">
+
+<img width="622" alt="Screenshot 2024-11-11 150927" src="https://github.com/user-attachments/assets/408b24a4-ebe9-463f-84a1-9e9b5b6aaf57">
+<img width="549" alt="Screenshot 2024-11-11 150915" src="https://github.com/user-attachments/assets/dc156eea-56cd-4dd9-bfd6-d944a295f172">
+
+Model Training:
+A screenshot showing the model training process for Random Forest and Logistic Regression.
+<img width="697" alt="Screenshot 2024-11-11 151321" src="https://github.com/user-attachments/assets/85a52e97-296c-40b6-bd1c-19b3938fb07d">
+
+Model Evaluation:
+A screenshot displaying the classification report with metrics like precision, recall, and F1-score.
+<img width="519" alt="Screenshot 2024-11-11 151014" src="https://github.com/user-attachments/assets/89026ce8-c804-48cf-b8af-a90bbcec3a30">
+
+<img width="365" alt="Screenshot 2024-11-11 151029" src="https://github.com/user-attachments/assets/516736ef-b06b-4594-8869-6193ba56d7ac">
+
+SHAP Summary Plot:
+A screenshot showing the SHAP summary plot for model explainability
+<img width="420" alt="Screenshot 2024-11-11 151047" src="https://github.com/user-attachments/assets/1aaa0860-e756-48df-9d19-cc37383d9de0">
